@@ -1,0 +1,10 @@
+A quick hack to fill a number of USB sticks with music.
+
+The tool assumes that the current dir holds a bunch of artist/album/ dirs.
+At startup, it scans all albums and notes their size. Then, it will ask
+you to specify the target device (push enter to see a fresh mount list).
+Make sure to empty the target device before you enter it in (if you want).
+
+After the last USB stick, just push ^C or ^D.
+
+Tool does not keep state between runs!
